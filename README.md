@@ -1,4 +1,4 @@
-# <div align='center'>PouCode</div>
+# <div align='center'>LeoXero</div>
 
 <p align="center">
 
@@ -9,10 +9,10 @@
 <div align='center'>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/source-GitHub-black.svg)](https://github.com/pou-code/Baileys)
+[![GitHub](https://img.shields.io/badge/source-GitHub-black.svg)](https://github.com/leoganteng29/XeroBail)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
 
-A WebSockets library for interacting with WhatsApp Web, maintained under the **PouCode** brand.
+A WebSockets library for interacting with WhatsApp Web, maintained under the **LeoVhalzeth** brand.
 This project is a fork built on top of [Baileys](https://github.com/WhiskeySockets/Baileys) by WhiskeySockets.
 
 </div>
@@ -22,13 +22,13 @@ This project is a fork built on top of [Baileys](https://github.com/WhiskeySocke
 ## Installation
 Install directly from GitHub (not published on npm registry):
 ```bash
-npm install github:pou-code/Baileys
+npm install github:leoganteng29/XeroBail
 ```
 
 Or add it to your `package.json` manually:
 ```json
 "dependencies": {
-  "@poucode/baileys": "github:pou-code/Baileys"
+  "@leovhalzeth/baileys": "github:leoganteng29/XeroBail"
 }
 ```
 
@@ -37,7 +37,7 @@ Already have a bot built on the original `@whiskeysockets/baileys` and don't wan
 name points to this fork:
 ```json
 "dependencies": {
-  "@whiskeysockets/baileys": "github:pou-code/Baileys"
+  "@whiskeysockets/baileys": "github:leoganteng29/XeroBail"
 }
 ```
 With this alias, keep using `require('@whiskeysockets/baileys')` in your code as-is — npm will
@@ -53,7 +53,7 @@ npm install github:pou-code/Baileys#main
 const {
   default: makeWASocket,
   // other exports
-} = require('@poucode/baileys');
+} = require('@leovhalzeth/baileys');
 ```
 
 ---
@@ -65,7 +65,7 @@ const {
 const {
   default: makeWASocket,
   Browsers
-} = require('@poucode/baileys');
+} = require('@leovhalzeth/baileys');
 
 const client = makeWASocket({
   browser: Browsers.poucode('Chrome'),
@@ -79,7 +79,7 @@ const {
   default: makeWASocket,
   fetchLatestWAWebVersion,
   Browsers
-} = require('@poucode/baileys');
+} = require('@leovhalzeth/baileys');
 
 const client = makeWASocket({
   browser: Browsers.poucode('Chrome'),
@@ -134,7 +134,7 @@ logged into the same account). It does not affect delivery to the recipient.
 ```javascript
 // Sent to the recipient, but NOT synced to your other devices
 await client.relayMessage(m.chat, {
-  conversation: "Hello from PouCode"
+  conversation: "Hello from LeoVhalzeth"
 }, {
   noSelfSync: true
 });
@@ -148,7 +148,7 @@ await client.relayMessage(m.chat, {
 
 // Also works through sendMessage
 await client.sendMessage(m.chat, {
-  text: "Hello from PouCode"
+  text: "Hello from LeoVhalzeth"
 }, {
   noSelfSync: true
 });
