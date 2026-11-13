@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <img src="https://files.catbox.moe/i497x5.jpg" width="180" alt="Pou"/>
+  <img src="https://ganga--link--ghhzdp9sv8hk.code.run/i/yck0z18jyc.jpg" width="180" alt="Leo"/>
 
 </p>
 
